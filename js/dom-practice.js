@@ -51,6 +51,22 @@ sendIt.addEventListener("click", function(){
 
 //STEP 8
 
+newPage.addEventListener("click", function() {      window.open("newpage.html","","width=300,height=300,left=50,top=50");
+}, false);
+
 //STEP 9
+var startDisplay;
+start.addEventListener("click", function() {
+    startDisplay = setInterval(function(){ console.log("Learning Javascript is fun!"); }, 2000);
+}, false);
+
+stopIt.addEventListener("click", function() {
+    clearInterval(startDisplay);
+}, false);
 
 //STEP 10
+var mySelect = document.getElementById("menu");
+
+mySelect.onchange = function() {
+   window.alert("You selected: " + mySelect.value.toUpperCase());
+}
