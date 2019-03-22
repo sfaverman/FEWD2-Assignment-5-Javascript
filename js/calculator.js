@@ -24,3 +24,4 @@ function init() {
    three.addEventListener("click", function () {			window.alert("You pressed " + $("three").value);
      }, false);
 }
+/* Testing Git connection */
