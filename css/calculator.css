@@ -1,0 +1,21 @@
+body {
+    max-width: 300px;
+    margin: auto;
+}
+article {
+    display: block;
+    width: 80%;
+    height: auto;
+    background-color: cadetblue;
+    margin-top: 20px;
+}
+#calculator input[type="text"] {
+    margin: 2% 10% 2% 5%;
+
+}
+.buttons {
+    margin-left: 5%;
+ }
+.buttons input {
+    margin: 3% 5%;
+}
