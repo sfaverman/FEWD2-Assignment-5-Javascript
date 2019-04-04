@@ -5,7 +5,8 @@ body {
 }
 
 h2 {
-	text-align: center;
+	text-align: left;
+	padding-left: 10px;
 }
 
 fieldset {
@@ -88,6 +89,9 @@ fieldset span {
 	width: 100%;
 }
 @media screen and (max-width: 767px) {
+	h2 {
+		font-size: 20px;
+	}
 	table {
     	font-size: 1em;
 	}
